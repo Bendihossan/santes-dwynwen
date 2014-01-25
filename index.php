@@ -8,7 +8,7 @@ use Symfony\Component\HttpKernel\Debug\ExceptionHandler;
 ExceptionHandler::register(false);
 
 $app = new Silex\Application();
-$app['debug'] = true;
+//$app['debug'] = true;
 $app->register(new Silex\Provider\UrlGeneratorServiceProvider());
 $app->register(new Silex\Provider\SessionServiceProvider());
 
