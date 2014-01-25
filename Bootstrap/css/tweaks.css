@@ -51,16 +51,14 @@ ul#featurette-list-large li {
 
 #head {
     margin-bottom: 0;
+    margin-left: 0.5em;
 }
 
 #head h1 {
     font-size: 400%;
     line-height: 0.8em;
     color: black;
-    margin-top: 0;
-    margin-left: 0.5em;
-    margin-bottom: 0.5em;
-    margin-right: 0.5em;
+    margin: 0;
 }
 
 #head h1, #head p {
@@ -73,8 +71,7 @@ ul#featurette-list-large li {
     font-size: 180%;
     font-weight: 500;
     max-width: 900px;
-    margin-left: 1em;
-    margin-right: 1.5em;
+    margin: 0;
 }
 
 h1 {
@@ -125,6 +122,19 @@ footer a, footer a:active, footer a:visited {
     #wrapper {
         margin: 0 auto -1em;
     }
+
+    #head {
+        margin: 0;
+    }
+
+    #head h1, #head p {
+        font-size: 200%;
+        text-align: center;
+    }
+
+    #head p {
+        font-size: 100%;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -140,17 +150,6 @@ footer a, footer a:active, footer a:visited {
     #head {
         top: 4.5em;
         width: 94%;
-    }
-
-    #head h1 {
-        text-align: center;
-        font-size: 400%;
-        margin: 0;
-    }
-    #head p {
-        text-align: center;
-        font-size: 150%;
-        line-height: 2em;
     }
 
     #photoCarousel {
