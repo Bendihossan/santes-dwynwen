@@ -1,0 +1,164 @@
+/*
+* Steffan Harries Copyright 2014
+* Twitter Bootstrap Tweaks
+*/
+html, body {
+    height: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #FFB0B9;
+}
+
+#featurette-text-large {
+    font-size: 800%;
+    text-align: center;
+}
+
+body.cy #featurette-text-large {
+    font-size: 500%;
+}
+
+ul#featurette-list-large li {
+    font-size: 130%;
+}
+
+#wrapper p {
+    margin: 0 0 20px;
+    line-height: 1.8em;
+}
+
+::selection {
+    background: #FFB0B9;
+    color: white;
+}
+::-moz-selection {
+    background: #FFB0B9;
+    color: white;
+}
+
+.navbar .navbar-default .navbar-static-top {
+    border-width: 0 0 1px;
+}
+
+.navbar-static-top {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+#head {
+    margin-bottom: 0;
+}
+
+#head h1 {
+    font-size: 400%;
+    line-height: 0.8em;
+    color: black;
+    margin-top: 0;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+}
+
+#head h1, #head p {
+    color: black;
+    text-shadow: 1px 0px 1px white;
+}
+
+#head p {
+    line-height: 1em;
+    font-size: 180%;
+    font-weight: 500;
+    max-width: 900px;
+    margin-left: 1em;
+    margin-right: 1.5em;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4.7em;
+}
+
+footer, #push {
+    height: 4em;
+}
+
+footer {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+#header-wrap {
+    padding: 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a, footer a:active, footer a:visited {
+    color: #DB5A68;
+}
+
+@media screen and (min-width: 2000px) {
+    #wrapper, footer {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        padding: 0;
+    }
+
+    #content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #head {
+        top: 4.5em;
+        width: 94%;
+    }
+
+    #head h1 {
+        text-align: center;
+        font-size: 400%;
+        margin: 0;
+    }
+    #head p {
+        text-align: center;
+        font-size: 150%;
+        line-height: 2em;
+    }
+
+    #photoCarousel {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    footer {
+        font-size: 120%;
+        padding: 0 3em;
+        text-align: center;
+    }
+
+    footer p {
+        text-align: center;
+    }
+}

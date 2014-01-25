@@ -1,0 +1,48 @@
+{% extends "layout.html.twig" %}
+
+{% block body %}
+    <div class="container marketing">
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">{{ 'intro-heading-1'|trans }} <span class="text-muted">{{ 'intro-heading-2'|trans }}</span></h2>
+                <p class="lead">{{ 'intro'|trans }}</p>
+            </div>
+            <div class="col-md-5">
+                <h1 id="featurette-text-large">{{ 'the-date'|trans }}</h1>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">{{ 'story-heading-1'|trans }} <span class="text-muted">{{ 'story-heading-2'|trans }}</span></h2>
+                <p class="lead">{{ 'story'|trans|raw }}</p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Stdwynwen%27sChurchLlanddwyn.JPG/800px-Stdwynwen%27sChurchLlanddwyn.JPG">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">{{ 'what-to-do-1'|trans }}</h2>
+                <p class="lead">{{ 'what-to-do'|trans }}</p>
+            </div>
+            <div class="col-md-5">
+                <ul id="featurette-list-large">
+                    <li>{{ 'what-to-do-list-1'|trans }}</li>
+                    <li>{{ 'what-to-do-list-2'|trans }}</li>
+                    <li>{{ 'what-to-do-list-3'|trans }}</li>
+                    <li>{{ 'what-to-do-list-4'|trans }}</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="push"></div>
+    </div>
+{% endblock %}
