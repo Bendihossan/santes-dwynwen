@@ -121,6 +121,12 @@ footer a, footer a:active, footer a:visited {
     }
 }
 
+@media screen and (max-width: 992px) {
+    #wrapper {
+        margin: 0 auto -1em;
+    }
+}
+
 @media screen and (max-width: 767px) {
     body {
         padding: 0;
