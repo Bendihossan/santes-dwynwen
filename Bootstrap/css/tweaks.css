@@ -165,5 +165,6 @@ footer a, footer a:active, footer a:visited {
 
     footer p {
         text-align: center;
+        font-size: 0.75em;
     }
 }
